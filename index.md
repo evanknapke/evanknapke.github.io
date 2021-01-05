@@ -35,7 +35,7 @@ ___
 - Description: Takes in a list of free agent baseball players and returns the best possible players to sign to the team in order to maximize the VORP (value over replacement player) for that team. The problem is a variation of the classic Knapsack problem.
 - Technologies: Python, OOP, Test Driven Development (TDD)
 
-[Server Number Guesser](https://github.com/evanknapke/Server-Number_Guesser)
+[Server Number Guesser](https://github.com/evanknapke/Server-Number-Guesser)
 - Description: Creates a server that is able to handle multiple clients. Creates a dialogue with the client(s) and guesses a number of their choosing.
 - Technologies: Java, Threading, Sockets
 
