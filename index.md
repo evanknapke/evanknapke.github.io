@@ -5,7 +5,7 @@ ___
 - Ball State University, Muncie, Indiana
 - Major: Computer Science
 - Minor: Computer Information Systems
-- GPA: 3.7
+- GPA: 3.75
 - Honors: Ball State University Presidential Scholar
 
 ## Technical Skills
@@ -25,11 +25,11 @@ ___
 
 [NFL Predictor](https://github.com/evanknapke/NFL-Predictor)
 - Description: Pulls live stats from the web to predict outcomes of the upcoming schedule.
-- Technologies: Python, Pandas, Object Oriented Programming (OOP)
+- Technologies: Python, Pandas
 
 [WavesFPS](https://github.com/evanknapke/WavesFPS)
 - Description: A 3D 3rd person shooting game that gets increasingly more difficult as the game goes on.
-- Technologies: Unreal Engine 4, AI, OOP
+- Technologies: Unreal Engine 4, AI, Object Oriented Programming (OOP)
 
 [Signing Free Agents](https://github.com/evanknapke/Signing-Free-Agents)
 - Description: Takes in a list of free agent baseball players and returns the best possible players to sign to the team in order to maximize the VORP (value over replacement player) for that team. The problem is a variation of the classic Knapsack problem.
