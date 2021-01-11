@@ -56,7 +56,7 @@ ___
 - Technologies used: ASP.Net, C#, VUE, Node, HTML5, CSS, JavaScript, Ajax, Docker
 - Team methodologies used: Agile and Scrum iterative sprint development model, UML charts for project design, Test Driven Development implementation
 
-### Landscaper, May 2018 - August 2018, May 2019 - August 2019
+### Landscaper, May 2018 - August 2020
 #### LML Estate Management, Fort Wayne, IN
 - Lead landscaping crews at high-end Fort Wayne properties
 - Discussed with and worked with clients to adhere to their wants and needs
