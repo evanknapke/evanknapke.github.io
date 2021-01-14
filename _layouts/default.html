@@ -7,9 +7,17 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="/assets/css/navbar.css">
 
   </head>
   <body>
+    <div class="topnav">
+      <a href="/about/">About</a>
+      <a href="/experience/">Work Experience</a>
+      <a href="/projects/">Projects</a>
+      <a href="/">Home</a>
+    </div>
+
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
