@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 ---
 
-Hello! My name is Evan Knapke. I am a software developer currently studying computer science at Ball State University.
+I'm a software developer from Hoagland, Indiana. Currently, I am completing my last semester studying computer science at Ball State University.

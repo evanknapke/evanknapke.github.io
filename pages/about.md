@@ -1,23 +1,17 @@
 ---
-layout: page
+layout: about
 title: About
 permalink: /about/
 ---
 
-## Education
-___
+I am currently a Senior attending Ball State University. I am pursuing a major in Computer Science and a Minor in Computer Information Systems. As a student, I have completed a variety of courses and projects that I believe has prepared me for the industry that I am so passionate about.
 
-### Bachelor of Science, Expected May 2021
-- Ball State University, Muncie, Indiana
-- Major: Computer Science
-- Minor: Computer Information Systems
-- GPA: 3.75
-- Honors: Ball State University Presidential Scholar
+I enjoy to problem solve and figure out solutions to all the issues that arise when developing software. I love continuously learning new things every time I try to tackle a problem. I enjoy working with others and being able to share ideas and cooperate in order to complete my goals.
 
-## Technical Skills
+## Hobbies and Interests
 ---
-
-- Proficient in Python, Java, C#, Git
-- Familiar with HTML, CSS, JS, SQL
-- Proficient in Microsoft Word, Excel, and PowerPoint
-- Experience with Mac OS, Linux, and Windows
+- Stock Market and Investments
+- Sports and Sports Betting
+- Add more
+- Add more
+- Add more
