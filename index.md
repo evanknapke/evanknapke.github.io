@@ -2,8 +2,4 @@
 layout: default
 ---
 
-[About](/pages/about.md)
-
-[Projects](/pages/projects.md)
-
-[Experience](/pages/experience.md)
+Hello! My name is Evan Knapke. I am a software developer currently studying computer science at Ball State University.

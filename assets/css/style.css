@@ -1,0 +1,44 @@
+body {
+  background-color: #06090e;
+  color: #d6d8dd;
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+
+a {
+  color: #6aa5f8;
+  text-decoration: none;
+}
+
+.navbar h1 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #171b21;
+}
+
+.navbar ul li {
+  float: right;
+}
+
+.navbar ul li:first-child {
+  float: left;
+}
+
+.navbar ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.navbar ul li a:hover {
+  background-color: #111;
+}

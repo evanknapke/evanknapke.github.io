@@ -7,8 +7,8 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="/assets/css/navbar.css">
 
+    <!-- For Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -16,16 +16,19 @@
 
   </head>
   <body>
-    <div class="topnav">
-      <a href="/about/">About</a>
-      <a href="/experience/">Work Experience</a>
-      <a href="/projects/">Projects</a>
-      <a href="/">Home</a>
-    </div>
-
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <div class="navbar">
+          <ul>
+            <li><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/experience/">Work Experience</a></li>
+            <li><a href="/projects/">Projects</a></li>
+            <li><a href="/">Home</a></li>
+          </ul>
+        </div>
+      </header>
+      <section>
 
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
@@ -36,11 +39,7 @@
         <p><a href="https://www.linkedin.com/in/evanknapke/">View My LinkedIn Profile</a><br>
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
 
-      </header>
-      <section>
-
-      {{ content }}
-
+        <p>{{ content }}</p>
       </section>
       <footer>
         {% if site.github.is_project_page %}
