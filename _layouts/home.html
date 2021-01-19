@@ -29,13 +29,15 @@
           </ul>
         </div>
       </header>
-      <section class="blocktext">
-        <span class="greeting">Hello.</span>
-        <br>
-        <span class="intro">I am Evan.</span>
-        <span>{{ content }}</span>
-        <span><a href="/about/">Learn more about me</a></span>
-      </section>
+      <div class="container">
+        <div class="home-child">
+          <span class="greeting">Hello.</span>
+          <br>
+          <span class="intro">I am Evan.</span>
+          <span>{{ content }}</span>
+          <span><a href="/about/">Learn more about me</a></span>
+        </div>
+      </div>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>

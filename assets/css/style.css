@@ -43,19 +43,19 @@ a {
   background-color: #111;
 }
 
-.blocktext {
-	width: 500px;
-	height: 0px;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 75vh;
+}
 
-	position: fixed;
-	top:0;
-	bottom: 0;
-	left: 0;
-	right: 0;
+.home-child {
+  max-width: 25%;
+}
 
-	margin-top: 100pt;
-  margin-left: 25pt;
-  text-align: left;
+.child{
+  max-width: 50%;
 }
 
 .greeting {

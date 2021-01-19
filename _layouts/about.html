@@ -29,19 +29,22 @@
           </ul>
         </div>
       </header>
-      <section>
+      <div class="container">
 
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
+        <div class="child">
+          {% if site.logo %}
+            <img src="{{site.logo | relative_url}}" alt="Logo" />
+          {% endif %}
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+          <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        <p><a href="https://www.linkedin.com/in/evanknapke/">View My LinkedIn Profile</a><br>
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
+          <p><a href="https://www.linkedin.com/in/evanknapke/">View My LinkedIn Profile</a><br>
+          <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
 
-        <p>{{ content }}</p>
-      </section>
+          <p>{{ content }}</p>
+        </div>
+
+      </div>
 
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
