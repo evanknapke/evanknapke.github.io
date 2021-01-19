@@ -62,3 +62,16 @@ a {
   font-family: impact, courier, verdana, arial, helvetica, sans-serif;
   font-size: 100pt;
 }
+
+@media (max-width: 700px) {
+  .home-child {
+    max-width: 95%;
+  }
+  .child {
+    max-width: 95%;
+  }
+  .greeting {
+    font-family: impact, courier, verdana, arial, helvetica, sans-serif;
+    font-size: 75pt;
+  }
+}
