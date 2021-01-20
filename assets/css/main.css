@@ -1,7 +1,7 @@
 body {
   background-color: #06090e;
   color: #d6d8dd;
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: courier, verdana, arial, helvetica, sans-serif;
 }
 
 a {
@@ -14,13 +14,6 @@ a {
   align-items: center;
   justify-content: center;
   min-height: 75vh;
-}
-
-.navbar h1 a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
 }
 
 .navbar ul {
@@ -48,4 +41,8 @@ a {
 
 .navbar ul li a:hover {
   background-color: #111;
+}
+
+.navbar select {
+  display: none;
 }
