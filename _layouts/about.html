@@ -8,6 +8,9 @@
 {% seo %}
     <link rel="stylesheet" type="text/css" href="{{ "/assets/css/page.css?v=" | append: site.github.build_revision | relative_url }}">
 
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- For Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -30,17 +33,15 @@
         </div>
       </header>
       <div class="container">
-
         <div class="child">
+          <div class="icon-bar">
+            <a href="https://www.linkedin.com/in/evanknapke/" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/evanknapke" target="_blank" class="github"><i class="fa fa-github"></i></a>
+          </div>
+
           {% if site.logo %}
             <img src="{{site.logo | relative_url}}" alt="Logo" />
           {% endif %}
-
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-          <p><a href="https://www.linkedin.com/in/evanknapke/">View My LinkedIn Profile</a><br>
-          <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-
           <p>{{ content }}</p>
         </div>
 

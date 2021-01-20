@@ -9,3 +9,17 @@
     max-width: 95%;
   }
 }
+
+.icon-bar {
+  float: right;
+}
+
+.icon-bar a {
+  text-align: center;
+  padding: 10px;
+  font-size: 26px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
