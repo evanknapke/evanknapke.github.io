@@ -1,0 +1,11 @@
+@import 'main.css';
+
+.child{
+  max-width: 50%;
+}
+
+@media (max-width: 700px) {
+  .child {
+    max-width: 95%;
+  }
+}

@@ -10,8 +10,9 @@ I enjoy to problem solve and figure out solutions to all the issues that arise w
 
 ## Hobbies and Interests
 ---
+
 - Stock Market and Investments
 - Sports and Sports Betting
-- Add more
-- Add more
-- Add more
+- Big Data and Data Science
+- Predictive Algorithms
+- iOS Jailbreaking and Bug Exploitation

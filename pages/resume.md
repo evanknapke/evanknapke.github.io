@@ -7,7 +7,7 @@ permalink: /resume/
 ## Education
 ---
 
-- Bachelor of Science, Expected May 2021
+Bachelor of Science, Expected May 2021
 - Ball State University, Muncie, Indiana
 - Major: Computer Science
 - Minor: Computer Information Systems
@@ -46,9 +46,10 @@ permalink: /resume/
 - Technologies used: ASP.Net, C#, VUE, Node, HTML5, CSS, JavaScript, Ajax, Docker
 - Team methodologies used: Agile and Scrum iterative sprint development model, UML charts for project design, Test Driven Development implementation
 
-### Landscaper, May 2018 - August 2018, May 2019 - August 2019, May 2020 - August 2020
+### Landscaper, May 2018 - August 2020
 #### LML Estate Management, Fort Wayne, IN
 - Lead landscaping crews at high-end Fort Wayne properties
-Automotive Mechanic, February 2016 - August 2017
-Meyer Auto Sales Inc., Monroeville, IN
+
+### Automotive Mechanic, February 2016 - August 2017
+#### Meyer Auto Sales Inc., Monroeville, IN
 - Ran tests, diagnosed issues, and fixed customer vehicles
