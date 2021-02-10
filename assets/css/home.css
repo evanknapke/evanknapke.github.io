@@ -1,18 +1,27 @@
 @import 'main.css';
 
 .home-child {
-  max-width: 40vw;
+  max-width: 30%;
 }
 
 .greeting {
-  font-size: 10vw;
+  font-size: 600%;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .home-child {
-    max-width: 80vw;
+    max-width: 50%;
   }
   .greeting {
-    font-size: 20vw;
+    font-size: 500%;
+  }
+}
+
+@media (max-width: 600px) {
+  .home-child {
+    max-width: 80%;
+  }
+  .greeting {
+    font-size: 400%;
   }
 }
