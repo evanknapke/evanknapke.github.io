@@ -17,8 +17,8 @@ Bachelor of Science, Expected May 2021
 ## Technical Skills
 ---
 
-- Proficient in Python, Java, C#, Git
-- Familiar with HTML, CSS, JS, SQL
+- Proficient in Python, C#, Java, JavaScript
+- Familiar with HTML, CSS, SQL
 - Proficient in Microsoft Word, Excel, and PowerPoint
 - Experience with Mac OS, Linux, and Windows
 
@@ -40,10 +40,10 @@ Bachelor of Science, Expected May 2021
 ## Work Experience
 ---
 
-### Financial Advising Tool and API, October 2020 - Current
+### Software Developer, October 2020 - May 2021
 #### Accutech Systems Corporation, Muncie, IN
-- Description: Application for financial advisors that assists in showing potential portfolios to their clients.
-- Technologies used: ASP.Net, C#, VUE, Node, HTML5, CSS, JavaScript, Ajax, Docker
+- Description: Work with a small team on a financial advising tool and API for financial advisors that generates and displays potential portfolios to their clients.
+- Technologies used: ASP.Net, C#, Vue.js, Node, HTML5, CSS, JavaScript, Ajax, Docker
 - Team methodologies used: Agile and Scrum iterative sprint development model, UML charts for project design, Test Driven Development implementation
 
 ### Landscaper, May 2018 - August 2020
