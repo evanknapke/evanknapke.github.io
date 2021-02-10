@@ -9,7 +9,7 @@ permalink: /experience/
 
 ### Software Developer
 #### Accutech Systems Corporation, Muncie, IN
-#### October 2020 - Current
+#### October 2020 - May 2021
 - Description: Work with a small team on a financial advising tool and API for financial advisors that generates and displays potential portfolios to their clients.
 - Technologies used: ASP.Net, C#, Vue.js, Node, HTML5, CSS, JavaScript, Ajax, Docker
 - Team methodologies used: Agile and Scrum iterative sprint development model, UML charts for project design, Test Driven Development implementation
