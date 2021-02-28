@@ -7,12 +7,30 @@ permalink: /resume/
 ## Education
 ---
 
-Bachelor of Science, Expected May 2021
-- Ball State University, Muncie, Indiana
+### Ball State University, Muncie, Indiana (2017-2021)
+- Degree: Bachelor of Science (Expected May 2021)
 - Major: Computer Science
 - Minor: Computer Information Systems
 - GPA: 3.75
+- Honors: Ball State University Presidential Scholar
 - Relevant Coursework: Software Engineering, Advanced Programming, Data Mining, Data Analytics, Web Programming, Database Design, Design and Analysis of Algorithms, Computer Networks, Operating Systems, Programming Languages
+
+### Heritage Jr-Sr High School, Monroeville, Indiana (2013-2017)
+- Diploma: Academic Honors Diploma
+- GPA: 3.6
+- Honors:
+    - Member of the National Honors Society
+    - Ranked in the top 25% of graduating class
+- Activities:
+    - [Northeast Indiana Tech Fest](http://www.neitechfest.com/the-board) participant (2017)
+    - Varsity Football (2013-2016)
+        - Team Captain (2016)
+    - Junior Varsity Baseball (2013-2015)
+
+### Saint Joseph Hessen Cassel School, Fort Wayne, Indiana (2002-2013)
+- Activities:
+    - Basketball (2008-2013)
+    - Football (2012-2013)
 
 ## Technical Skills
 ---
@@ -49,7 +67,13 @@ Bachelor of Science, Expected May 2021
 ### Landscaper, May 2018 - August 2020
 #### LML Estate Management, Fort Wayne, IN
 - Lead landscaping crews at high-end Fort Wayne properties
+- Skilled in running heavy machinery: skid loaders, excavators
+- Discussed with and worked with clients to adhere to their wants and needs
+- Mowed, trimmed, planted, and other various grounds maintenance
 
 ### Automotive Mechanic, February 2016 - August 2017
 #### Meyer Auto Sales Inc., Monroeville, IN
+- Performed oil changes, tire changes, and other routine maintenance needs
 - Ran tests, diagnosed issues, and fixed customer vehicles
+- Repaired and replaced faulty or broken parts on customer vehicles
+- Answered the phone when need and provided customer service
