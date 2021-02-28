@@ -4,17 +4,15 @@ title: Projects
 permalink: /projects/
 ---
 
-## Projects
+## Capstone Project
 ---
+**Merit Engine**
+- Description: A financial advising tool and API for financial advisors that generates and displays potential portfolios to their clients. The project is fully connected to a database that stores all client and advisor information and accounts. The goal of the project is for advisors to be able to calculate optimal portfolios by taking in the parameters: risk tolerance, desired rate of return, and desired length of term.
+- Technologies used: ASP.Net, C#, Vue.js, Node, HTML5, CSS, JavaScript, Ajax, Docker, MongoDB
+- Team methodologies used: Agile and Scrum iterative sprint development model, UML charts for project design, Test Driven Development implementation
 
-[iOS Photo Extractor](https://github.com/evanknapke/iOS-Photo-Extractor)
-- Description: Extracts photos off of jailbroken iOS devices on the same network.
-- Technologies: Python, Unix, Bash, SSH, FTP
-
-[NFL Predictor](https://github.com/evanknapke/NFL-Predictor)
-- Description: Pulls live stats from the web to predict outcomes of the upcoming schedule.
-- Technologies: Python, Pandas
-
+## Ball State Projects
+---
 [WavesFPS](https://github.com/evanknapke/WavesFPS)
 - Description: A 3D 3rd person shooting game that gets increasingly more difficult as the game goes on.
 - Technologies: Unreal Engine 4, AI, Object Oriented Programming (OOP)
@@ -27,10 +25,21 @@ permalink: /projects/
 - Description: Creates a server that is able to handle multiple clients. Creates a dialogue with the client(s) and guesses a number of their choosing.
 - Technologies: Java, Threading, Sockets
 
-[Decision Maker](https://github.com/evanknapke/Decision-Maker)
-- Description: an iOS application that makes decisions for you.
-- Technologies: Swift
-
 [Diamond](https://github.com/evanknapke/Diamond)
 - Description: A text based adventure game that adapts to the choices that the player makes.
 - Technologies: Java, OOP
+
+## Personal Projects
+---
+
+[iOS Photo Extractor](https://github.com/evanknapke/iOS-Photo-Extractor)
+- Description: Extracts photos off of jailbroken iOS devices on the same network.
+- Technologies: Python, Unix, Bash, SSH, FTP
+
+[NFL Predictor](https://github.com/evanknapke/NFL-Predictor)
+- Description: Pulls live stats from the web to predict outcomes of the upcoming schedule.
+- Technologies: Python, Pandas
+
+[Decision Maker](https://github.com/evanknapke/Decision-Maker)
+- Description: an iOS application that makes decisions for you.
+- Technologies: Swift
