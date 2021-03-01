@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-## Capstone Project
+## Ball State Capstone Project
 ---
 **Merit Engine**
 - Description: A financial advising tool and API for financial advisors that generates and displays potential portfolios to their clients. The project is fully connected to a database that stores all client and advisor information and accounts. The goal of the project is for advisors to be able to calculate optimal portfolios by taking in the parameters: risk tolerance, desired rate of return, and desired length of term.
@@ -16,8 +16,16 @@ permalink: /projects/
     - View expanded details about portfolios that you have generated
 - Technologies used: ASP.Net, C#, Vue.js, Node, HTML5, CSS, JavaScript, Ajax, Docker, MongoDB
 - Team methodologies used: Agile and Scrum iterative sprint development model, UML charts for project design, Test Driven Development implementation
+- Screenshots:
 
-## Ball State Projects
+![Login Page](../files/merit_login.png){: .project-image}
+
+![New Page](../files/merit_new.png){: .project-image}
+
+![Login Page](../files/merit_compare.png){: .project-image}
+
+
+## Other Ball State Projects
 ---
 [WavesFPS](https://github.com/evanknapke/WavesFPS)
 - Description: A 3D 3rd person shooting game that gets increasingly more difficult as the game goes on.

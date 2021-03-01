@@ -23,3 +23,11 @@
 .icon-bar a:hover {
   background-color: #000;
 }
+
+.project-image {
+  max-width: 75%;
+  height: auto;
+  border-radius: 8px;
+  margin: 0 auto;
+  display: block;
+}
