@@ -22,7 +22,7 @@ permalink: /education/
     - Member of the National Honors Society
     - Ranked in the top 25% of graduating class
 - Activities:
-    - [Northeast Indiana Tech Fest](http://www.neitechfest.com/the-board) participant (2017)
+    - [Northeast Indiana Tech Fest](http://www.neitechfest.com/) participant (2017)
     - Varsity Football (2013-2016)
         - Team Captain (2016)
     - Junior Varsity Baseball (2013-2015)
