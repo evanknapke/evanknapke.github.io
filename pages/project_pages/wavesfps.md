@@ -23,12 +23,16 @@ A 3D 3rd person shooting game that gets increasingly more difficult as the game 
 
 ## Authors
 
-Evan Knapke
+- Evan Knapke
 
 ## Acknowledgments
 
 - Dr. Paul Gestwicki for guidance and answering questions that I had
 - Nick Hammerstrom for assisting with the world design
+
+## Technologies
+
+- Unreal Engine 4
 
 ## Music
 
