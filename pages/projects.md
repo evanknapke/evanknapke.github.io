@@ -18,11 +18,11 @@ permalink: /projects/
 - Team methodologies used: Agile and Scrum iterative sprint development model, UML charts for project design, Test Driven Development implementation
 - Screenshots:
 
-![Login Page](../files/merit_login.png){: .project-image}
+![Login Page](../images/merit_login.png){: .project-image}
 
-![New Page](../files/merit_new.png){: .project-image}
+![New Page](../images/merit_new.png){: .project-image}
 
-![Login Page](../files/merit_compare.png){: .project-image}
+![Login Page](../images/merit_compare.png){: .project-image}
 
 
 ## Other Ball State Projects
