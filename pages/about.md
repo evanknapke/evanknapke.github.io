@@ -19,3 +19,54 @@ I enjoy to problem solve and figure out solutions to all the issues that arise w
 - Big Data and Data Science
 - Predictive Algorithms
 - iOS Jailbreaking and Bug Exploitation
+
+## Technical Skills
+---
+
+### Languages Used
+- Python
+- C#
+- Java
+- Javascript
+- HTML/CSS
+- SQL
+- PHP
+- C
+- C++
+- Swift
+- Objective-C
+- Bash
+- Zsh
+
+### Frameworks Used
+- ASP.NET Core
+- Node.js
+- Vue.js
+
+### Database Technologies Used
+- MySQL
+- MongoDB
+
+### IDEs Used
+- Visual Studio
+- Atom
+- IntelliJ IDEA
+- PyCharm
+- Idle
+- Xcode
+
+### Platforms Used
+- MacOS
+- Windows Desktop
+- Docker
+- Unreal Engine
+- iOS
+- Raspberry Pi
+
+### Some Libraries Used
+- Chart.js
+- Vuetify.js
+- Pandas
+- Numpy
+- Matplotlib
+
