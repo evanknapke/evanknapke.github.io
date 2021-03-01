@@ -51,10 +51,9 @@ A text based adventure game that adapts to the choices that the player makes.
 
 ### iOS Photo Extractor
 
-- Description: Extracts photos off of jailbroken iOS devices on the same network.
-- Technologies: Python, Unix, Bash, SSH, FTP
+Extracts photos off of jailbroken iOS devices on the same network.
 
-[Learn more about this project](https://github.com/evanknapke/iOS-Photo-Extractor)
+[Learn more about this project](/projects/ios_photo_extractor)
 
 ### NFL Predictor
 
