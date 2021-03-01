@@ -25,7 +25,7 @@ This problem is an instance of a larger, and well-studied class of optimization 
 
 ## Acknowledgments
 
-Nicolas Renet for putting the requirements together
+Prof. Nicolas Renet for putting the requirements together
 
 ## Technologies
 

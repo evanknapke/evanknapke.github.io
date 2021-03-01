@@ -40,10 +40,10 @@ Creates a server that is able to handle multiple clients. Creates a dialogue wit
 [Learn more about this project](/projects/server_number_guesser)
 
 ### Diamond
-- Description: A text based adventure game that adapts to the choices that the player makes.
-- Technologies: Java, OOP
 
-[Learn more about this project](https://github.com/evanknapke/Diamond)
+A text based adventure game that adapts to the choices that the player makes.
+
+[Learn more about this project](/projects/diamond)
 
 
 ## Some Personal Projects
