@@ -16,13 +16,10 @@ permalink: /projects/
     - View expanded details about portfolios that you have generated
 - Technologies used: ASP.Net, C#, Vue.js, Node, HTML5, CSS, JavaScript, Ajax, Docker, MongoDB
 - Team methodologies used: Agile and Scrum iterative sprint development model, UML charts for project design, Test Driven Development implementation
-- Screenshots:
-
-![Login Page Screenshot](../images/merit_engine/merit_login.png){: .project-image}
 
 ![New Page Screenshot](../images/merit_engine/merit_new.png){: .project-image}
 
-![Compare Page Screenshot](../images/merit_engine/merit_compare.png){: .project-image}
+[Learn more about this project](/projects/merit_engine)
 
 
 ## Other Ball State Projects
@@ -33,7 +30,6 @@ permalink: /projects/
 - Screenshots:
 
 ![Enemy Image](../images/waves_fps/wavesfps_enemy.png){: .project-image}
-
 
 [Signing Free Agents](https://github.com/evanknapke/Signing-Free-Agents)
 - Description: Takes in a list of free agent baseball players and returns the best possible players to sign to the team in order to maximize the VORP (value over replacement player) for that team. The problem is a variation of the classic Knapsack problem.
@@ -47,7 +43,8 @@ permalink: /projects/
 - Description: A text based adventure game that adapts to the choices that the player makes.
 - Technologies: Java, OOP
 
-## Personal Projects
+
+## Some Personal Projects
 ---
 
 [iOS Photo Extractor](https://github.com/evanknapke/iOS-Photo-Extractor)
