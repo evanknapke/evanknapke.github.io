@@ -35,10 +35,9 @@ Takes in a list of free agent baseball players and returns the best possible pla
 
 ### Server Number Guesser
 
-- Description: Creates a server that is able to handle multiple clients. Creates a dialogue with the client(s) and guesses a number of their choosing.
-- Technologies: Java, Threading, Sockets
+Creates a server that is able to handle multiple clients. Creates a dialogue with the client(s) and guesses a number of their choosing.
 
-[Learn more about this project](https://github.com/evanknapke/Server-Number-Guesser)
+[Learn more about this project](/projects/server_number_guesser)
 
 ### Diamond
 - Description: A text based adventure game that adapts to the choices that the player makes.
