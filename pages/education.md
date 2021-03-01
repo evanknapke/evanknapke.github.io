@@ -7,7 +7,7 @@ permalink: /education/
 ## Education
 ---
 
-### [Ball State University, Muncie, Indiana](https://www.bsu.edu) (2017-2021)
+### Ball State University, Muncie, Indiana (2017-2021)
 - Degree: Bachelor of Science (Expected May 2021)
 - Major: Computer Science
 - Minor: Computer Information Systems
@@ -15,7 +15,7 @@ permalink: /education/
 - Honors: Ball State University Presidential Scholar
 - Relevant Coursework: Software Engineering, Advanced Programming, Data Mining, Data Analytics, Web Programming, Database Design, Design and Analysis of Algorithms, Computer Networks, Operating Systems, Programming Languages
 
-### [Heritage Jr-Sr High School, Monroeville, Indiana](https://hhs.eacs.k12.in.us) (2013-2017)
+### Heritage Jr-Sr High School, Monroeville, Indiana (2013-2017)
 - Diploma: Academic Honors Diploma
 - GPA: 3.6
 - Honors:
@@ -27,7 +27,7 @@ permalink: /education/
         - Team Captain (2016)
     - Junior Varsity Baseball (2013-2015)
 
-### [Saint Joseph Hessen Cassel School, Fort Wayne, Indiana](https://stjoehc.org) (2002-2013)
+### Saint Joseph Hessen Cassel School, Fort Wayne, Indiana (2002-2013)
 - Activities:
     - Basketball (2008-2013)
     - Football (2012-2013)
