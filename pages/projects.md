@@ -57,10 +57,9 @@ Extracts photos off of jailbroken iOS devices on the same network.
 
 ### NFL Predictor
 
-- Description: Pulls live stats from the web to predict outcomes of the upcoming schedule.
-- Technologies: Python, Pandas
+Pulls live stats from the web to predict outcomes of the upcoming schedule.
 
-[Learn more about this project](https://github.com/evanknapke/NFL-Predictor)
+[Learn more about this project](/projects/nfl_predictor)
 
 ### Decision Maker
 
