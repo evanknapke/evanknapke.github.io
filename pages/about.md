@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+[Check out my resume](../files/knapke_resume.pdf)
+
 ## About Me
 ---
 
