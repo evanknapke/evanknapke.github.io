@@ -63,7 +63,6 @@ Pulls live stats from the web to predict outcomes of the upcoming schedule.
 
 ### Decision Maker
 
-- Description: an iOS application that makes decisions for you.
-- Technologies: Swift
+An iOS application that makes decisions for you.
 
-[Learn more about this project](https://github.com/evanknapke/Decision-Maker)
+[Learn more about this project](/projects/decision_maker/)
