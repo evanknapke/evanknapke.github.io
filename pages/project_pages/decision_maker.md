@@ -20,3 +20,9 @@ Evan Knapke
 ## Technologies
 
 - Swift
+
+## Screenshots
+
+![Clear Options Screenshot](../../images/decision_maker/decision_maker_clear.png){: .project-image}
+
+![With Options Screenshot](../../images/decision_maker/decision_maker_options.png){: .project-image}
