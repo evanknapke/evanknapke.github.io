@@ -13,6 +13,9 @@ A financial advising tool and API for financial advisors that generates and disp
 
 [Learn more about this project](/projects/merit_engine)
 
+![New Page Screenshot](../images/merit_engine/merit_new.png){: .project-image}
+
+
 ## Other Ball State Projects
 ---
 
