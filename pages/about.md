@@ -17,7 +17,7 @@ I enjoy to problem solve and figure out solutions to all the issues that arise w
 ---
 
 - Stock Market and Investments
-- Sports and Sports Betting
+- Football, Basketball, Golf
 - Big Data and Data Science
 - Predictive Algorithms
 - iOS Jailbreaking and Bug Exploitation
@@ -42,17 +42,18 @@ I enjoy to problem solve and figure out solutions to all the issues that arise w
 
 ### Frameworks Used
 - ASP.NET Core
-- Node.js
 - Vue.js
+- Node.js
 
 ### Database Technologies Used
-- MySQL
 - MongoDB
+- MySQL
 
 ### IDEs Used
 - Visual Studio
 - Atom
 - IntelliJ IDEA
+- WebStorm
 - PyCharm
 - Idle
 - Xcode
@@ -61,13 +62,13 @@ I enjoy to problem solve and figure out solutions to all the issues that arise w
 - MacOS
 - Windows Desktop
 - Docker
-- Unreal Engine
+- Unreal Engine 4
 - iOS
 - Raspberry Pi
 
 ### Some Libraries Used
-- Chart.js
 - Vuetify.js
+- Chart.js
 - Pandas
 - Numpy
 - Matplotlib
