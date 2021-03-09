@@ -7,7 +7,7 @@ permalink: /experience/
 ## Work Experience
 ---
 
-### Software Developer
+### Software Developer (BSU Capstone Project)
 #### Accutech Systems Corporation, Muncie, IN
 #### October 2020 - May 2021
 - Description: Work with a small team on a financial advising tool and API for financial advisors that generates and displays potential portfolios to their clients.
