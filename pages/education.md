@@ -13,7 +13,7 @@ permalink: /education/
 - Minor: Computer Information Systems
 - GPA: 3.75
 - Honors: Ball State University Presidential Scholar
-- Relevant Coursework: Software Engineering, Advanced Programming, Data Mining, Data Analytics, Web Programming, Database Design, Design and Analysis of Algorithms, Computer Networks, Operating Systems, Programming Languages
+- [Check out my college coursework](/education/coursework)
 
 ### Heritage Jr-Sr High School, Monroeville, Indiana (2013-2017)
 - Diploma: Academic Honors Diploma
