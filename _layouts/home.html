@@ -7,6 +7,9 @@
 
 {% seo %}
     <link rel="stylesheet" type="text/css" href="{{ "/assets/css/home.css?v=" | append: site.github.build_revision | relative_url }}">
+    
+    <!-- Hamburger menu icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- For Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -21,12 +24,23 @@
         <div class="navbar">
           <ul>
             <li><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></li>
-            <li><a href="/about/">About</a></li>
-            <li><a href="/education/">Education</a></li>
-            <li><a href="/experience/">Work Experience</a></li>
-            <li><a href="/projects/">Projects</a></li>
-            <li><a href="/">Home</a></li>
+            <li><a class="hamburger-icon" onclick="openNav()"><i class="material-icons">dehaze</i></a></li>
+            <li><a class="nav-item" href="/about/">About</a></li>
+            <li><a class="nav-item" href="/education/">Education</a></li>
+            <li><a class="nav-item" href="/experience/">Work Experience</a></li>
+            <li><a class="nav-item" href="/projects/">Projects</a></li>
+            <li><a class="nav-item" href="/">Home</a></li>
           </ul>
+          
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a class="nav-item" href="/about/">About</a>
+            <a class="nav-item" href="/education/">Education</a>
+            <a class="nav-item" href="/experience/">Work Experience</a>
+            <a class="nav-item" href="/projects/">Projects</a>
+            <a class="nav-item" href="/">Home</a>
+          </div>
+          
         </div>
       </header>
       <div class="container">
@@ -39,6 +53,6 @@
         </div>
       </div>
     </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/script.js" | relative_url }}"></script>
   </body>
 </html>
