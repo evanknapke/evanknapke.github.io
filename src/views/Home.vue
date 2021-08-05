@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+    <!-- <img class="knapke-img" alt="Self Portrait" src="../assets/knapke.png"> -->
     <h1>Evan Knapke</h1>
     <p>
       Software Developer at Moneytree Software, an Accutech Systems Corporation company.
@@ -21,3 +21,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  .home {
+    text-align: center;
+  }
+</style>

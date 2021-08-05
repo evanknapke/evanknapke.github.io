@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <img alt="Vue logo" src="../assets/logo.png">
+    <img class="knapke-img" alt="Self Portrait" src="../assets/knapke.png">
     <br>
     <a href="#">(UPDATE LINK) Check out my resume</a>
     <h1>About Me</h1>
