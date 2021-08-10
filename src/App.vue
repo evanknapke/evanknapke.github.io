@@ -17,7 +17,7 @@
       <v-btn text to="/projects">Projects</v-btn>
     </v-app-bar>
 
-    <v-main>
+    <v-main class="main">
       <router-view/>
     </v-main>
   </v-app>
@@ -63,13 +63,22 @@ export default {
   /* text-align: center; */
   color: #2c3e50;
 }
+
+.main {
+  display: block;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 #nav {
   padding: 30px;
 }
+
 #nav a {
   font-weight: bold;
   color: #2c3e50;
 }
+
 #nav a.router-link-exact-active {
   color: #42b983;
 }

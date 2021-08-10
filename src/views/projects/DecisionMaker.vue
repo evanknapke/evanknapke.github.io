@@ -1,30 +1,43 @@
 <template>
-    <div class="child">
-          <br>
-          <h1 id="decision-maker">Decision Maker</h1>
-<hr>
+  <v-container>
+    <h1 id="decision-maker">Decision Maker</h1>
+    <p><a href="https://github.com/evanknapke/Decision-Maker">Check out the source code</a></p>
+    
+    <v-divider/><br>
 
-<p><a href="https://github.com/evanknapke/Decision-Maker">Check out the source code</a></p>
+    <h3 id="description">Description</h3>
+    <p>An iOS application that makes decisions for you.</p>
 
-<h2 id="description">Description</h2>
+    <h3 id="authors">Authors</h3>
+    <p>Evan Knapke</p>
 
-<p>An iOS application that makes decisions for you.</p>
+    <h2 id="technologies">Technologies</h2>
+    <v-divider/><br>
 
-<h2 id="authors">Authors</h2>
+    <ul>
+      <li>Swift</li>
+    </ul>
 
-<p>Evan Knapke</p>
+    <h2 id="screenshots">Screenshots</h2>
+    <v-divider/><br>
 
-<h2 id="technologies">Technologies</h2>
-
-<ul>
-  <li>Swift</li>
-</ul>
-
-<h2 id="screenshots">Screenshots</h2>
-
-<p><img src="/images/decision_maker/decision_maker_clear.png" alt="Clear Options Screenshot" class="project-image"></p>
-
-<p><img src="/images/decision_maker/decision_maker_options.png" alt="With Options Screenshot" class="project-image"></p>
-
-        </div>
+    <div>
+        <v-img v-for="(screenshot, i) in screenshots" :key="i"
+          max-width="640px" 
+          :src="screenshot.path" 
+          :alt="screenshot.altText"
+        />
+    </div>
+  </v-container>
 </template>
+
+<script>
+export default {
+  data: () => ({
+    screenshots: [
+        { path: require("@/assets/decision_maker/decision_maker_clear.png"), altText: "Clear Options Screenshot" },
+        { path: require("@/assets/decision_maker/decision_maker_options.png"), altText: "With Options Screenshot" }
+    ],
+  }),
+};
+</script>
