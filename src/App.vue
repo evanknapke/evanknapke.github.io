@@ -1,6 +1,8 @@
 <template>
   <v-app>
-    <v-app-bar
+
+    <top-navigation-bar/>
+    <!-- <v-app-bar
       app
       dense
       flat
@@ -11,11 +13,11 @@
 
       <v-spacer></v-spacer>
 
-      <v-btn text to="/about">About</v-btn>
-      <v-btn text to="/education">Education</v-btn>
-      <v-btn text to="/experience">Experience</v-btn>
-      <v-btn text to="/projects">Projects</v-btn>
-    </v-app-bar>
+      <v-btn v-for="(route, i) in mainPages" :key="i" text :to="route.link">
+        {{route.text}}
+      </v-btn>
+    
+    </v-app-bar> -->
 
     <v-main class="main">
       <router-view/>
@@ -25,32 +27,20 @@
 
 <script>
 
+import TopNavigationBar from '@/components/TopNavigationBar.vue';
+
 export default {
+  components: { TopNavigationBar },
   name: 'App',
 
   data: () => ({
-    // items: [
-    //   {
-    //     text: 'Home',
-    //     link: '/'
-    //   },
-    //   {
-    //     text: 'About',
-    //     link: '/about'
-    //   },
-    //   {
-    //     text: 'Education',
-    //     link: '/education'
-    //   },
-    //   {
-    //     text: 'Experience',
-    //     link: '/experience'
-    //   },
-    //   {
-    //     text: 'Projects',
-    //     link: '/projects'
-    //   },
-    // ]
+    mainPages: [
+      // { text: 'Home', link: '/' },
+      { text: 'About', link: '/about' },
+      { text: 'Education', link: '/education' },
+      { text: 'Experience', link: '/experience' },
+      { text: 'Projects',link: '/projects' },
+    ]
   }),
 };
 </script>

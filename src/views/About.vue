@@ -1,8 +1,8 @@
 <template>
-  <div class="about">
+  <v-container>
     <img class="knapke-img" alt="Self Portrait" src="../assets/knapke.png">
     <br>
-    <a href="#">(UPDATE LINK) Check out my resume</a>
+
     <h1>About Me</h1>
     <p>
       I’m a professional Software Developer currently working in the fintech industry at 
@@ -79,5 +79,5 @@
       <li>Numpy</li>
       <li>Matplotlib</li>
     </ul>
-  </div>
+  </v-container>
 </template>

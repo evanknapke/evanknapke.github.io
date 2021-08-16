@@ -2,7 +2,7 @@
     <div class="education">
         <h1>Education</h1>
 
-        <v-card max-width="700">
+        <v-card width="700">
             <v-card-text>
                 <p class="text-h5 text--primary">
                     Ball State University, Muncie, Indiana (2017-2021)
@@ -14,15 +14,15 @@
                         <li>Minor: Computer Information Systems</li>
                         <li>GPA: 3.75</li>
                         <li>Honors: Ball State University Presidential Scholar</li>
-                        <li><a href="#">(UPDATE LINK)Coursework and grades earned</a></li>
+                        <li><a href="/#/education/coursework">Coursework and grades earned</a></li>
                     </ul>
                 </div>
             </v-card-text>
         </v-card>
 
         <br>
-        <br>
-        <v-card max-width="700">
+
+        <v-card width="700">
             <v-card-text>
                 <p class="text-h5 text--primary">
                     Heritage Jr-Sr High School, Monroeville, Indiana (2013-2017)
@@ -52,9 +52,8 @@
         </v-card>
         
         <br>
-        <br>
 
-        <v-card max-width="700">
+        <v-card width="700">
             <v-card-text>
                 <p class="text-h5 text--primary">
                     Saint Joseph Hessen Cassel School, Fort Wayne, Indiana (2002-2013)
