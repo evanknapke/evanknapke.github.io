@@ -2,22 +2,9 @@
   <v-app>
 
     <top-navigation-bar/>
-    <!-- <v-app-bar
-      app
-      dense
-      flat
-      color="primary"
-      dark
-    >
-      <v-btn text to="/">Evan Knapke</v-btn>
+    <v-spacer style="height:12px;"></v-spacer>
 
-      <v-spacer></v-spacer>
-
-      <v-btn v-for="(route, i) in mainPages" :key="i" text :to="route.link">
-        {{route.text}}
-      </v-btn>
-    
-    </v-app-bar> -->
+    <!-- <v-spacer style="height:12px;"></v-spacer> -->
 
     <v-main class="main">
       <router-view/>
@@ -36,10 +23,10 @@ export default {
   data: () => ({
     mainPages: [
       // { text: 'Home', link: '/' },
-      { text: 'About', link: '/about' },
-      { text: 'Education', link: '/education' },
-      { text: 'Experience', link: '/experience' },
-      { text: 'Projects',link: '/projects' },
+      // { text: 'About', link: '/about' },
+      // { text: 'Education', link: '/education' },
+      // { text: 'Experience', link: '/experience' },
+      // { text: 'Projects',link: '/projects' },
     ]
   }),
 };
@@ -56,8 +43,8 @@ export default {
 
 .main {
   display: block;
-  max-width: 800px;
-  margin: 0 auto;
+  padding-top: 36px !important;
+  /* max-width: 800px; */
 }
 
 #nav {

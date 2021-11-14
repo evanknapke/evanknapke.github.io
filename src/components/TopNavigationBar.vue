@@ -44,7 +44,7 @@ export default {
   name: 'TopNavigationBar',
   data: () => ({
     mainPages: [
-      { text: 'Home', link: '/' },
+      // { text: 'Home', link: '/' },
       { text: 'About', link: '/about' },
       { text: 'Education', link: '/education' },
       { text: 'Experience', link: '/experience' },

@@ -2,160 +2,20 @@
     <div class="projects">
         <h1 style="text-align:center;">Projects</h1>
         <v-container>
-            <v-row>
-                <v-col>
-                     <v-card max-width="344">
+            <v-row v-for="(projectRows, index) in chunkedProjectList" :key="index">
+                <v-col v-for="project in projectRows" :key="project.title">
+                    <v-card class="project-card">
                         <v-card-text>
-                            <div>Vue, Javascript, HTML, CSS, Vuetify</div>
+                            <div>{{ project.technologies }}</div>
                             <p class="text-h4 text--primary">
-                                This Website
+                                {{ project.title }}
                             </p>
                             <div class="text--primary">
-                                The current website.
+                                {{ project.description }}
                             </div>
                         </v-card-text>
-                        <v-card-actions>
-                            <v-btn to="/projects/this-website">
-                                Learn More
-                            </v-btn>
-                        </v-card-actions>
-                    </v-card>
-                    <br>
-                    <v-card max-width="344">
-                        <v-card-text>
-                            <div>.Net Core, Vue, MongoDB</div>
-                            <p class="text-h4 text--primary">
-                                Merit Engine
-                            </p>
-                            <div class="text--primary">
-                                A financial advising tool and API for financial advisors that generates and displays potential portfolios to their clients.
-                            </div>
-                        </v-card-text>
-                        <v-card-actions>
-                            <v-btn to="/projects/merit-engine">
-                                Learn More
-                            </v-btn>
-                        </v-card-actions>
-                    </v-card>
-                    <br>
-                    <v-card max-width="344">
-                        <v-card-text>
-                            <div>Unreal Engine 4</div>
-                            <p class="text-h4 text--primary">
-                                WavesFPS
-                            </p>
-                            <div class="text--primary">
-                                A 3D 3rd person shooting game that gets increasingly more difficult as the game goes on.
-                            </div>
-                        </v-card-text>
-                        <v-card-actions>
-                            <v-btn to="/projects/wavesfps">
-                                Learn More
-                            </v-btn>
-                        </v-card-actions>
-                    </v-card>
-                    <br>
-                    <v-card max-width="344">
-                        <v-card-text>
-                            <div>Python</div>
-                            <p class="text-h4 text--primary">
-                                Signing Free Agents
-                            </p>
-                            <div class="text--primary">
-                                Takes in a list of free agent baseball players and returns the best possible players to sign to the team in order to maximize the VORP (value over replacement player) for that team.
-                            </div>
-                        </v-card-text>
-                        <v-card-actions>
-                            <v-btn to="/projects/signing-free-agents">
-                                Learn More
-                            </v-btn>
-                        </v-card-actions>
-                    </v-card>
-                </v-col>
-                <br>
-                <v-col>
-                    <v-card max-width="344">
-                        <v-card-text>
-                            <div>Java</div>
-                            <p class="text-h4 text--primary">
-                                Server Number Guesser
-                            </p>
-                            <div class="text--primary">
-                                Creates a server that is able to handle multiple clients. Creates a dialogue with the client(s) and guesses a number of their choosing.
-                            </div>
-                        </v-card-text>
-                        <v-card-actions>
-                           <v-btn to="/projects/server-number-guesser">
-                                Learn More
-                            </v-btn>
-                        </v-card-actions>
-                    </v-card>
-                    <br>
-                    <v-card max-width="344">
-                        <v-card-text>
-                            <div>Java</div>
-                            <p class="text-h4 text--primary">
-                                Diamond
-                            </p>
-                            <div class="text--primary">
-                                A text based adventure game that adapts to the choices that the player makes.
-                            </div>
-                        </v-card-text>
-                        <v-card-actions>
-                            <v-btn to="/projects/diamond">
-                                Learn More
-                            </v-btn>
-                        </v-card-actions>
-                    </v-card>
-                    <br>
-                    <v-card max-width="344">
-                        <v-card-text>
-                            <div>Python</div>
-                            <p class="text-h4 text--primary">
-                                iOS Photo Extractor
-                            </p>
-                            <div class="text--primary">
-                                Extracts photos off of jailbroken iOS devices on the same network.
-                            </div>
-                        </v-card-text>
-                        <v-card-actions>
-                            <v-btn to="/projects/ios-photo-extractor">
-                                Learn More
-                            </v-btn>
-                        </v-card-actions>
-                    </v-card>
-                </v-col>
-                <br>
-                <v-col>
-                    <v-card max-width="344">
-                        <v-card-text>
-                            <div>Python, Pandas</div>
-                            <p class="text-h4 text--primary">
-                                NFL Predictor
-                            </p>
-                            <div class="text--primary">
-                                Pulls live stats from the web to predict outcomes of the upcoming schedule.
-                            </div>
-                        </v-card-text>
-                        <v-card-actions>
-                            <v-btn to="/projects/nfl-predictor">
-                                Learn More
-                            </v-btn>
-                        </v-card-actions>
-                    </v-card>
-                    <br>
-                    <v-card max-width="344">
-                        <v-card-text>
-                            <div>Swift</div>
-                            <p class="text-h4 text--primary">
-                                Decision Maker
-                            </p>
-                            <div class="text--primary">
-                                An iOS application that makes decisions for you.
-                            </div>
-                        </v-card-text>
-                        <v-card-actions>
-                            <v-btn to="/projects/decision-maker">
+                        <v-card-actions class="project-card-buttons">
+                            <v-btn :to="project.route">
                                 Learn More
                             </v-btn>
                         </v-card-actions>
@@ -169,3 +29,94 @@
         </v-main>
     </div>
 </template>
+
+<script>
+  export default {
+    data: () => ({
+        chunkedProjectList: [],
+        projects: [
+            {
+                title: 'This Website',
+                description: 'The current website.',
+                technologies: 'Vue, Javascript, HTML, CSS, Vuetify',
+                route: '/projects/this-website'
+            },
+            {
+                title: 'Merit Engine',
+                description: 'A financial advising tool and API for financial advisors that generates and displays potential portfolios to their clients.',
+                technologies: '.Net Core, Vue, MongoDB',
+                route: '/projects/merit-engine'
+            },
+            {
+                title: 'WavesFPS',
+                description: 'A 3D 3rd person shooting game that gets increasingly more difficult as the game goes on.',
+                technologies: 'Unreal Engine 4, C++',
+                route: '/projects/wavesfps'
+            },
+            {
+                title: 'Signing Free Agents',
+                description: 'Takes in a list of free agent baseball players and returns the best possible players to sign to the team in order to maximize the VORP (value over replacement player) for that team.',
+                technologies: 'Python',
+                route: '/projects/signing-free-agents'
+            },
+            {
+                title: 'Server Number Guesser',
+                description: 'Creates a server that is able to handle multiple clients. Creates a dialogue with the client(s) and guesses a number of their choosing.',
+                technologies: 'Java',
+                route: '/projects/server-number-guesser'
+            },
+            {
+                title: 'Diamond',
+                description: 'A text based adventure game that adapts to the choices that the player makes.',
+                technologies: 'Java',
+                route: '/projects/diamond'
+            },
+            {
+                title: 'iOS Photo Extractor',
+                description: 'Extracts photos off of jailbroken iOS devices on the same network.',
+                technologies: 'Python, Paramiko',
+                route: '/projects/ios-photo-extractor'
+            },
+            {
+                title: 'NFL Predictor',
+                description: 'Pulls live stats from the web to predict outcomes of the upcoming schedule.',
+                technologies: 'Python, Pandas',
+                route: '/projects/nfl-predictor'
+            },
+            {
+                title: 'Decision Maker',
+                description: 'An iOS application that makes decisions for you.',
+                technologies: 'Swift',
+                route: '/projects/decision-maker'
+            },
+        ],
+    }),
+    methods: {
+        chunk (arr, len) {
+            var chunks = []
+            var i = 0
+            var n = arr.length
+
+            while (i < n) {
+                chunks.push(arr.slice(i, i += len))
+            }
+            return chunks
+        }
+    },
+    beforeMount() {
+        this.chunkedProjectList = this.chunk(this.projects, 3);
+    }
+  }
+</script>
+
+<style scoped>
+    .project-card {
+        height: 350px;
+    }
+
+    .project-card-buttons {
+        position: absolute;
+        bottom: 5px;
+    }
+</style>
+
