@@ -1,7 +1,7 @@
 <template>
     <div class="projects">
-        <h1 style="text-align:center;">Projects</h1>
         <v-container>
+            <h1>Projects</h1>
             <v-row v-for="(projectRows, index) in chunkedProjectList" :key="index">
                 <v-col v-for="project in projectRows" :key="project.title">
                     <v-card class="project-card">

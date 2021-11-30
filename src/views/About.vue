@@ -57,18 +57,16 @@
 </template>
 
 <script>
-
 export default {
   name: 'About',
 
   data: () => ({
     interests: ["Football, Basketball, Baseball, Golf, Bowling", "Stock Market and Investments", "Big Data and Data Science", "Predictive Algorithms", "iOS Jailbreaking and Bug Exploitation"],
     languages: ["C#", "Javascript", "Python", "Java", "Typescript", "HTML/CSS", "SQL", "Objective C"],
-    frameworks: ["ASP.NET", "ADO.NET", "Vue.js", "Angular", "Telerik MVC", "Razor"],
+    frameworks: ["ASP.NET", "ADO.NET", "Vue.js", "AngularJS", "Telerik MVC", "Razor"],
     databases: ["Microsoft SQL Server", "ADO.NET Datasets", "MongoDB", "MySQL"],
     platforms: ["MacOS", "Windows", "Docker", "Auth0", "Unreal Engine 4", "iOS"],
     libraries: ["Vuetify.js", "Chart.js", "Pandas", "Numpy", "Matplotlib"]
   }),
 };
-
 </script>
