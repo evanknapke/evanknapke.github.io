@@ -7,7 +7,7 @@
                     <div>
                         <span class="text-h5 text--primary">{{ experience.position }} </span>
                     </div>
-                    <div>
+                    <div class=text--secondary>
                         {{ experience.company }}<br>
                         {{ experience.start }} - {{ experience.end }}
                     </div>
