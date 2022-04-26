@@ -3,7 +3,6 @@
       app
       dense
       flat
-      color="primary"
       dark
     >
         <v-navigation-drawer
@@ -12,7 +11,6 @@
           v-model="drawer"
           absolute
           temporary
-          color="primary"
         >
           <v-list nav dense>
             <v-list-item-group v-model="group">
@@ -48,7 +46,7 @@ export default {
       { text: 'About', link: '/about' },
       { text: 'Education', link: '/education' },
       { text: 'Experience', link: '/experience' },
-      { text: 'Projects',link: '/projects' },
+      { text: 'Projects', link: '/projects' },
     ],
     drawer: false,
     group: null,

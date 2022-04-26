@@ -1,11 +1,7 @@
 <template>
   <v-app>
-
     <top-navigation-bar/>
     <v-spacer style="height:12px;"></v-spacer>
-
-    <!-- <v-spacer style="height:12px;"></v-spacer> -->
-
     <v-main class="main">
       <router-view/>
     </v-main>
@@ -19,15 +15,7 @@ import TopNavigationBar from '@/components/TopNavigationBar.vue';
 export default {
   components: { TopNavigationBar },
   name: 'App',
-
   data: () => ({
-    mainPages: [
-      // { text: 'Home', link: '/' },
-      // { text: 'About', link: '/about' },
-      // { text: 'Education', link: '/education' },
-      // { text: 'Experience', link: '/experience' },
-      // { text: 'Projects',link: '/projects' },
-    ]
   }),
 };
 </script>

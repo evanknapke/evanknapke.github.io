@@ -1,19 +1,19 @@
 <template>
   <v-container>
-      <!-- <v-spacer style="height:12px;"></v-spacer> -->
-      <div class="fullscreen-div" style="background-color:white;">
+      <div class="fullscreen-div">
         <!-- <img class="knapke-img" alt="Self Portrait" src="../assets/knapke.png"> -->
         <h1>Evan Knapke</h1>
         <p>
-          Software Developer
+          Full Stack Software Developer
           <br>
-          <router-link to="/about">Learn more about me</router-link>
+          <!-- <router-link to="/about">Learn more about me</router-link> -->
         </p>
       </div>
       
       <div class="fullscreen-div" style="background-color:grey;">
         <h1>this is example text</h1>
       </div>
+
   </v-container>
 </template>
 
