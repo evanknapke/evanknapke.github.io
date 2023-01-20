@@ -1,24 +1,24 @@
 <template>
   <v-container>
-    <h1 id="decision-maker">Decision Maker</h1>
+    <h1 class="text--primary" id="decision-maker">Decision Maker</h1>
     <p><a href="https://github.com/evanknapke/Decision-Maker">Check out the source code</a></p>
     
     <v-divider/><br>
 
-    <h3 id="description">Description</h3>
-    <p>An iOS application that makes decisions for you.</p>
+    <h3 class="text--primary" id="description">Description</h3>
+    <p class="text--secondary">An iOS application that makes decisions for you.</p>
 
-    <h3 id="authors">Authors</h3>
-    <p>Evan Knapke</p>
+    <h3 class="text--primary" id="authors">Authors</h3>
+    <p class="text--secondary">Evan Knapke</p>
 
-    <h2 id="technologies">Technologies</h2>
+    <h2 class="text--primary" id="technologies">Technologies</h2>
     <v-divider/><br>
 
-    <ul>
+    <ul class="text--secondary">
       <li>Swift</li>
     </ul>
 
-    <h2 id="screenshots">Screenshots</h2>
+    <h2 class="text--primary" id="screenshots">Screenshots</h2>
     <v-divider/><br>
 
     <div>

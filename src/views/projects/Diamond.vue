@@ -1,38 +1,36 @@
 <template>
-    <div class="child">
-          <br>
-          <h1 id="diamond">Diamond</h1>
-<hr>
+  <v-container>
+    <h1 class="text--primary" id="diamond">Diamond</h1>
+    <hr>
 
-<p><a href="https://github.com/evanknapke/Diamond">Check out the source code</a></p>
+    <p class="text--secondary"><a href="https://github.com/evanknapke/Diamond">Check out the source code</a></p>
 
-<h2 id="description">Description</h2>
+    <h2 class="text--primary" id="description">Description</h2>
 
-<p>A text based adventure game that adapts to the choices that the player makes.</p>
+    <p class="text--secondary">A text based adventure game that adapts to the choices that the player makes.</p>
 
-<h2 id="features">Features</h2>
+    <h2 class="text--primary" id="features">Features</h2>
 
-<ul>
-  <li>A complete story that adapts to the choices that the player makes</li>
-  <li>Room navigation with many options</li>
-  <li>Inventory system to hold pick-ups</li>
-  <li>Ability to read and write notes</li>
-  <li>Ability to quit at any time</li>
-</ul>
+    <ul class="text--secondary">
+      <li>A complete story that adapts to the choices that the player makes</li>
+      <li>Room navigation with many options</li>
+      <li>Inventory system to hold pick-ups</li>
+      <li>Ability to read and write notes</li>
+      <li>Ability to quit at any time</li>
+    </ul>
 
-<h2 id="authors">Authors</h2>
+    <h2 class="text--primary" id="authors">Authors</h2>
 
-<p>Evan Knapke</p>
+    <p class="text--secondary">Evan Knapke</p>
 
-<h2 id="acknowledgments">Acknowledgments</h2>
+    <h2 class="text--primary" id="acknowledgments">Acknowledgments</h2>
 
-<p>Prof. Karl Mesarosh for putting the project requirements together</p>
+    <p class="text--secondary">Prof. Karl Mesarosh for putting the project requirements together</p>
 
-<h2 id="technologies">Technologies</h2>
+    <h2 class="text--primary" id="technologies">Technologies</h2>
 
-<ul>
-  <li>Java</li>
-</ul>
-
-        </div>
+    <ul class="text--secondary">
+      <li>Java</li>
+    </ul>
+  </v-container>
 </template>
