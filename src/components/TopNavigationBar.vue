@@ -42,7 +42,6 @@ export default {
   name: 'TopNavigationBar',
   data: () => ({
     mainPages: [
-      // { text: 'Home', link: '/' },
       { text: 'About', link: '/about' },
       { text: 'Education', link: '/education' },
       { text: 'Experience', link: '/experience' },
@@ -57,17 +56,6 @@ export default {
       this.drawer = false
     },
   },
-  // computed: {
-  //   // height () {
-  //   //   switch (this.$vuetify.breakpoint.name) {
-  //   //     case 'xs': return 220
-  //   //     case 'sm': return 400
-  //   //     case 'md': return 500
-  //   //     case 'lg': return 600
-  //   //     case 'xl': return 800
-  //   //   }
-  //   // },
-  // },
   beforeDestroy () {
     if (typeof window == 'undefined')
       return;
@@ -81,6 +69,12 @@ export default {
   methods: {
     onResize () {
       this.isMobile = window.innerWidth < 600;
+      const homeLink = { text: 'Home', link: '/' };
+      let homeAdded = this.mainPages.some(obj => obj.text === homeLink.text);
+      if (this.isMobile && !homeAdded)
+        this.mainPages.unshift(homeLink);
+      else if (!this.isMobile && homeAdded)
+        this.mainPages = this.mainPages.filter(obj => obj.text !== homeLink.text);
     }
   }
 };

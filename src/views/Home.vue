@@ -2,17 +2,23 @@
   <v-container>
       <div class="fullscreen-div">
         <!-- <img class="knapke-img" alt="Self Portrait" src="../assets/knapke.png"> -->
-        <h1>Evan Knapke</h1>
-        <p>
-          Full Stack Software Developer
+        <div class="name--container">
+          <h1 class="name text--primary">
+            <div>
+              Evan<br>
+              Knapke
+            </div>
+          </h1>
           <br>
+          <span class="bio text--secondary">Full Stack Software Developer</span>
+        </div>
           <!-- <router-link to="/about">Learn more about me</router-link> -->
-        </p>
       </div>
       
-      <div class="fullscreen-div" style="background-color:grey;">
+      <!-- maybe hide header ont he home page and add links on this page? -->
+      <!-- <div class="fullscreen-div" style="background-color:grey;">
         <h1>this is example text</h1>
-      </div>
+      </div> -->
 
   </v-container>
 </template>
@@ -25,11 +31,32 @@ export default {
 </script>
 
 <style scoped>
+  .name {
+    text-align: right;
+    font-size: 10em;
+    line-height: 1em;
+  }
+
+  .name--container {
+    margin-right: 10%;
+    float: right;
+    width: 100;
+  }
+
+  .bio {
+    text-align: right;
+    float: right;
+    font-size: 1.5em;
+  }
+
   .fullscreen-div {
     text-align: center;
     height: calc(100vh - 48px);
     width: 100vw;
     padding-top: 12px !important;
+    display: flex;
+    align-items: center;
+    justify-content: right;
   }
 
   .container {
