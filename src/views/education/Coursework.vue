@@ -1,6 +1,6 @@
 <template>
     <v-container>
-        <h1>Coursework</h1>
+        <h1 class="text--primary">Coursework</h1>
         <v-select
           class="selector"
           :items="sectionOptions"
@@ -28,6 +28,7 @@ export default {
     headers: [
         { text: 'Course', value: 'course' },
         { text: 'Title', value: 'title' },
+        { text: 'Professor', value: 'professor' },
         { text: 'Grade', value: 'grade' }
     ],
     sectionOptions: [
@@ -40,7 +41,8 @@ export default {
         {
             course: "ENG 103",
             title: "Rhetoric & Writing",
-            grade: "T"
+            grade: "T",
+            professor: "Gail Alexander"
         },
         {
             course: "ENG 104",
@@ -60,7 +62,8 @@ export default {
         {
             course: "MATH 165",
             title: "Calculus 1",
-            grade: "T"
+            grade: "T",
+            professor: "Dean Lehrman"
         },
         {
             course: "FIN 101",
@@ -80,7 +83,8 @@ export default {
         {
             course: "ENG 206",
             title: "Reading Literature",
-            grade: "T"
+            grade: "T",
+            professor: "Gail Alexander"
         },
         { 
             course: "GEOL 101",
@@ -100,12 +104,14 @@ export default {
         {
             course: "GEOL 201",
             title: "Earth, Life, and Time",
-            grade: "B+"
+            grade: "B+",
+            professor: "Carolyn Dowling"
         },
         {
             course: "CS 498",
             title: "Software Engineering 2",
-            grade: "A"
+            grade: "A",
+            professor: "Huseyin Ergin"
         },
         {
             course: "WPP 392",
@@ -154,7 +160,7 @@ export default {
             course: "CS 239",
             title: "Social and Professional Issues",
             grade: "A",
-            professor: "Dave Largetn"
+            professor: "Dave Largent"
         },
         {
             course: "CS 315",
@@ -226,7 +232,7 @@ export default {
             course: "GEOL 201",
             title: "Earth, Life, and Time",
             grade: "B+",
-            professor: "Carolyn DOwnling"
+            professor: "Carolyn Dowling"
         },
         {
             course: "MATH 181",
@@ -238,13 +244,13 @@ export default {
             course: "MATH 162",
             title: "Applied Calculus 2",
             grade: "B+",
-            professor: "John"
+            professor: "John Herr"
         },
         {
             course: "MATH 165",
             title: "Calculus 1",
             grade: "T",
-            professor: "High School"
+            professor: "Dean Lehrman"
         }
     ],
     minorInComputerInformationSystems: [
@@ -266,7 +272,8 @@ export default {
         {
             course: "ISOM 300",
             title: "Project Management",
-            grade: "A"
+            grade: "A",
+            professor: "Sheila Smith"
         },
         {
             course: "ISOM 351",
@@ -276,13 +283,13 @@ export default {
         {
             course: "LCSM 361",
             title: "Simulation, Modeling, Optimization",
-            grade: "A"
+            grade: "A",
+            professor: "Saeed Gholamalitabarfirouzjaee"
         }
     ]
   }),
   methods: {
     optionSelected(value) {
-        console.log(value);
         switch(value) {
             case (1):
                 this.currentList = this.universityCoreCurriculum;
@@ -299,7 +306,7 @@ export default {
         }
     },
     getAllCourses() {
-        // TODO: Works, but terrible way of doing it. Use a better way.
+        // TODO: Works, but terrible way of doing it.
         var allCourses = this.universityCoreCurriculum;
         this.majorInComputerScience.forEach(course => {
             if (!allCourses.some(x => x.course == course.course))

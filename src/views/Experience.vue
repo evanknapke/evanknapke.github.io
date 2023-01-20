@@ -1,7 +1,7 @@
 <template>
     <div class="experience">
         <v-container>
-            <h1 style="margin-left: 10%;">Experience</h1>
+            <h1 class="text--primary" style="margin-left: 10%;">Experience</h1>
             <v-card class="experience-card" v-for="(experience, index) in experienceCardData" :key="index">
                 <v-card-text>
                     <div>

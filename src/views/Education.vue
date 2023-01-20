@@ -1,7 +1,7 @@
 <template>
     <div class="education">
         <v-container>
-            <h1 style="margin-left: 10%;">Education</h1>
+            <h1 class="text--primary" style="margin-left: 10%;">Education</h1>
             <v-card class="education-card">
                 <v-card-text>
                     <p class="text-h5 text--primary">
