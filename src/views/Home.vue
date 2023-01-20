@@ -1,7 +1,9 @@
 <template>
   <v-container>
       <div class="fullscreen-div">
-        <!-- <img class="knapke-img" alt="Self Portrait" src="../assets/knapke.png"> -->
+        <!-- <div>
+          <img class="knapke-img" alt="Self Portrait" src="../assets/knapke.png">
+        </div> -->
         <div class="name--container">
           <h1 class="name text--primary">
             <div>
@@ -33,20 +35,20 @@ export default {
 <style scoped>
   .name {
     text-align: right;
-    font-size: 10em;
+    font-size: max(min(15vw, 300px), 30px);
     line-height: 1em;
   }
 
   .name--container {
     margin-right: 10%;
     float: right;
-    width: 100;
+    width: 100vw;
   }
 
   .bio {
     text-align: right;
     float: right;
-    font-size: 1.5em;
+    font-size: max(min(2vw, 100px), 15px);
   }
 
   .fullscreen-div {

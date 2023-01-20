@@ -42,16 +42,16 @@
                 route: '/projects/this-website'
             },
             {
+                title: 'NFL Predictor',
+                description: 'Pulls live stats from the web to predict outcomes of the upcoming schedule.',
+                technologies: 'Python, Pandas',
+                route: '/projects/nfl-predictor'
+            },
+            {
                 title: 'Merit Engine',
                 description: 'A financial advising tool and API for financial advisors that generates and displays potential portfolios to their clients.',
                 technologies: '.Net Core, Vue, MongoDB',
                 route: '/projects/merit-engine'
-            },
-            {
-                title: 'WavesFPS',
-                description: 'A 3D 3rd person shooting game that gets increasingly more difficult as the game goes on.',
-                technologies: 'Unreal Engine 4, C++',
-                route: '/projects/wavesfps'
             },
             {
                 title: 'Signing Free Agents',
@@ -66,28 +66,28 @@
                 route: '/projects/server-number-guesser'
             },
             {
+                title: 'WavesFPS',
+                description: 'A 3D 3rd person shooting game that gets increasingly more difficult as the game goes on.',
+                technologies: 'Unreal Engine 4, C++',
+                route: '/projects/wavesfps'
+            },
+            {
                 title: 'Diamond',
                 description: 'A text based adventure game that adapts to the choices that the player makes.',
                 technologies: 'Java',
                 route: '/projects/diamond'
             },
             {
-                title: 'iOS Photo Extractor',
-                description: 'Extracts photos off of jailbroken iOS devices on the same network.',
-                technologies: 'Python, Paramiko',
-                route: '/projects/ios-photo-extractor'
-            },
-            {
-                title: 'NFL Predictor',
-                description: 'Pulls live stats from the web to predict outcomes of the upcoming schedule.',
-                technologies: 'Python, Pandas',
-                route: '/projects/nfl-predictor'
-            },
-            {
                 title: 'Decision Maker',
                 description: 'An iOS application that makes decisions for you.',
                 technologies: 'Swift',
                 route: '/projects/decision-maker'
+            },
+            {
+                title: 'iOS Photo Extractor',
+                description: 'Extracts photos off of jailbroken iOS devices on the same network.',
+                technologies: 'Python, Paramiko',
+                route: '/projects/ios-photo-extractor'
             },
         ],
     }),

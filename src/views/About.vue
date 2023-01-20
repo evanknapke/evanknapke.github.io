@@ -18,27 +18,27 @@
       ></card-list>
       <br>
       <card-list 
-        cardTitle="Languages Used"
+        cardTitle="Languages"
         :data="languages"
       ></card-list>
       <br>
       <card-list 
-        cardTitle="Frameworks Used"
+        cardTitle="Frameworks"
         :data="frameworks"
       ></card-list>
       <br>
       <card-list 
-        cardTitle="Database Technologies Used"
+        cardTitle="Database Technologies"
         :data="databases"
       ></card-list>
       <br>
       <card-list 
-        cardTitle="Platforms Used"
+        cardTitle="Platforms"
         :data="platforms"
       ></card-list>
       <br>
       <card-list 
-        cardTitle="Some Libraries Used"
+        cardTitle="Notable Libraries"
         :data="libraries"
       ></card-list>
     </v-container>
